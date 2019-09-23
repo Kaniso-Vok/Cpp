@@ -17,8 +17,32 @@ public:
 private:
 	int _a;
 };
+class Date
+{
+public:
+	Date()
+	{
+		_year = 1900;
+		_month = 1;
+		_day = 1;
+	}
+
+	Date(int year = 1900, int month = 1, int day = 1)
+	{
+		_year = year;
+		_month = month;
+		_day = day;
+	}
+private:
+	int _year;
+	int _month;
+	int _day;
+};
 int main()
 {
+	//Date d1;	无参的构造函数和全缺省的构造函数都称为默认构造函数，并且默认构造函数只能有一个。注意：无参
+	/*构造函数、全缺省构造函数、我们没写编译器默认生成的构造函数，都可以认为是默认成员函数
+	*/
 	A* p = NULL;
 	p->PrintA();
 	p->Show();
