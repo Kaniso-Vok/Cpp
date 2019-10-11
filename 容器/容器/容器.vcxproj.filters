@@ -18,5 +18,8 @@
     <ClCompile Include="vactor.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="vactor2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
