@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
-#if 0
 #include <string>
 
 void TestString1()
@@ -236,7 +234,7 @@ int main()
 	//TestString4();
 
 	//TestString5();
-	//TestString6();
+	TestString6();
 	//TestString7();
 	//TestString8();
 	//TestString9();
@@ -248,7 +246,7 @@ int main()
 // 	cout << s << endl;
 	return 0;
 }
-#endif
+
 
 #if 0
 // 借助string来解决浅拷贝问题
@@ -312,7 +310,6 @@ int main()
 	TestString();
 	return 0;
 }
-#endif
 
 #if 0
 namespace bite
@@ -678,6 +675,8 @@ int main()
 }
 #endif
 
+
+#if 0
 #include <assert.h>
 
 namespace bite
@@ -986,3 +985,5 @@ int main()
 	TestString3();
 	return 0;
 }
+
+#endif
