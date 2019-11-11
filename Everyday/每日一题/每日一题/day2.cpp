@@ -34,28 +34,28 @@ using namespace std;
 //#include <algorithm>
 //int main(){
 //	string s;
-//	getline(cin, s);
-//	auto it = s.begin();
-//	reverse(s.begin(), s.end());
+//	getline(cin, s);      //输入的字符串中包含空格，所以不能使用cin输入（遇到空格会停止），使用getline读取全部的字符（遇到换行符、EOF、自定义符号停止）
+//	auto it = s.begin();  //本体我选择用迭代器进行遍历字符串
+//	reverse(s.begin(), s.end());    //第一步先将整个字符串逆置，之后再分别将每一个单词逆置
 //	while (it!=s.end()){
 //		auto ii = it;
-//		while (ii != s.end() && *ii != ' '){
+//		while (ii != s.end() && *ii != ' '){    //找到一个单词的结束位置
 //			ii++;
 //		}
-//		reverse(it, ii);
-//		if (ii != s.end()){
-//			it = ii + 1;
+//		reverse(it, ii);                    //逆置当前单词
+//		if (ii != s.end()){          
+//			it = ii + 1;               //重新定义下一个单词的开头位置，+1是因为单词之间只有一个‘ ’
 //			ii++;
 //		}
-//		else{
+//		else{                         //若当前是最后一个位置，则直接给予结束条件结束循环
 //			it = s.end();
 //		}
 //	}
-//	cout << s;
+//	cout << s;        //输出结果
 //	return 0;
 //}
-
-//大佬扩展
+//
+////大佬扩展
 //#include<string>
 //int main()
 //{

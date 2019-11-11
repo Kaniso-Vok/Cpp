@@ -38,9 +38,9 @@ using namespace std;
 //	FFind(s);
 //	return 0;
 //}
-
+//
 //优化版本:
-
+//
 //#include<string>
 //
 //int main()
@@ -49,14 +49,14 @@ using namespace std;
 //	cin >> s;
 //	for (int i = 0; i <= s.length(); i++)
 //	{
-//		// 数字+=到cur
+//		 数字+=到cur
 //		if (s[i] >= '0' && s[i] <= '9')
 //		{
 //			cur += s[i];
 //		}
 //		else
 //		{
-//			// 找出更长的字符串，则更新字符串
+//			 找出更长的字符串，则更新字符串
 //			if (res.size() < cur.size())
 //				res = cur;
 //			else
@@ -65,4 +65,4 @@ using namespace std;
 //	}
 //	cout << res;
 //	return 0;
-//}
+//}
