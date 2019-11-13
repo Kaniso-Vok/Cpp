@@ -1,17 +1,19 @@
-﻿生成启动时间为 2019/11/12 22:38:33。
+﻿生成启动时间为 2019/11/13 21:35:25。
      1>项目“E:\C语言\程序\sdada\每日一题\每日一题\每日一题.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt day4.cpp day5.cpp day6.cpp
-         day6.cpp
-     1>e:\c语言\程序\sdada\每日一题\每日一题\day6.cpp(7): error C2057: 应输入常量表达式
-     1>e:\c语言\程序\sdada\每日一题\每日一题\day6.cpp(7): error C2466: 不能分配常量大小为 0 的数组
-     1>e:\c语言\程序\sdada\每日一题\每日一题\day6.cpp(7): error C2087: “a”: 缺少下标
-     1>e:\c语言\程序\sdada\每日一题\每日一题\day6.cpp(7): error C2133: “a”: 未知的大小
-         day5.cpp
-         day4.cpp
-         正在生成代码...
-     1>已完成生成项目“E:\C语言\程序\sdada\每日一题\每日一题\每日一题.vcxproj”(Build 个目标)的操作 - 失败。
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt day7.cpp
+         day7.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C语言\程序\sdada\每日一题\Debug\每日一题.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\C语言\程序\sdada\每日一题\Debug\每日一题.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\C语言\程序\sdada\每日一题\Debug\每日一题.lib" /MACHINE:X86 Debug\day3.obj
+         Debug\day1.obj
+         Debug\day2.obj
+         Debug\day4.obj
+         Debug\day5.obj
+         Debug\day6.obj
+         Debug\day7.obj
+         每日一题.vcxproj -> E:\C语言\程序\sdada\每日一题\Debug\每日一题.exe
+     1>已完成生成项目“E:\C语言\程序\sdada\每日一题\每日一题\每日一题.vcxproj”(Build 个目标)的操作。
 
-生成失败。
+生成成功。
 
-已用时间 00:00:02.43
+已用时间 00:00:00.93
