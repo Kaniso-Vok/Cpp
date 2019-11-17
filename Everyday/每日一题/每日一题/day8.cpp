@@ -21,19 +21,20 @@ using namespace std;
 //	cout << i;
 //	return 0;
 //}
-#include<string>
-int main(){
-	int n, m = 0, res1 = 0,res2=0;
-	string s[100];
-	cin >> n;
-	for (int i = 0; i < n; i++){
-		cin >> s[i];
-	}
-	while (m < n){
-		if (s[m][1] - s[m][0] == 1){
-			res1++;
-		}
-		if (s[m][])
-	}
-	return 0;
-}
+
+//#include<string>
+//int main(){
+//	int n, m = 0, res1 = 0,res2=0;
+//	string s[100];
+//	cin >> n;
+//	for (int i = 0; i < n; i++){
+//		cin >> s[i];
+//	}
+//	while (m < n){
+//		if (s[m][1] - s[m][0] == 1){
+//			res1++;
+//		}
+//		if (s[m][])
+//	}
+//	return 0;
+//}

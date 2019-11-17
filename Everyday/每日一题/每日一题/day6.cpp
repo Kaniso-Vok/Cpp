@@ -30,15 +30,33 @@ using namespace std;
 //	cout << res;
 //	return 0;
 //}
+
+//会产生溢出问题（未解决
 //#include<string>
 //int main(){
-//	int sum = 0;
+//	int sum = 0,sym=1;
 //	string s;
 //	cin >> s;
+//	if (s.empty()){
+//		return 0;
+//	}
+//	if (s[0] == '-'){
+//		sym = -1;
+//		s[0] = '0';
+//	}
+//	if (s[0] == '+'){
+//		sym = 1;
+//		s[0] = '0';
+//	}
 //	for (int i = 0; i < s.length(); ++i){
-//		if (s[i] == '-'){
-//
+//		if (s[i] >= '0'&&s[i] <= '9'){
+//			sum = sum * 10 + s[i] - '0';
+//		}
+//		else{
+//			sum = 0;
+//			break;
 //		}
 //	}
+//	cout << sym*sum;
 //	return 0;
 //}
