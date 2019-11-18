@@ -22,19 +22,48 @@ using namespace std;
 //	return 0;
 //}
 
+//Î´½â¾ö
 //#include<string>
 //int main(){
-//	int n, m = 0, res1 = 0,res2=0;
+//	int n, m = 0;
+//	bool res1,res2;
 //	string s[100];
 //	cin >> n;
 //	for (int i = 0; i < n; i++){
 //		cin >> s[i];
 //	}
-//	while (m < n){
-//		if (s[m][1] - s[m][0] == 1){
-//			res1++;
+//	while (m < n-1){
+//		if (s[m+1][0] >= s[m][0]){
+//			res1=true;
 //		}
-//		if (s[m][])
+//		else{
+//			res1 = false;
+//			break;
+//		}
+//		m++;
+//	}
+//	m = 0;
+//	while (m < n-1){
+//		if (s[m + 1].length()>=s[m].length()){
+//			res2 = true;
+//		}
+//		else{
+//			res2 = false;
+//			break;
+//		}
+//		m++;
+//	}
+//	if (res1 == true && res2 == false){
+//		cout << "lexicographically";
+//	}
+//	else if (res2 == true && res1 == false){
+//		cout << "lengths";
+//	}
+//	else if (res2 == true && res1 == true){
+//		cout << "both";
+//	}
+//	else{
+//		cout << "none";
 //	}
 //	return 0;
 //}
