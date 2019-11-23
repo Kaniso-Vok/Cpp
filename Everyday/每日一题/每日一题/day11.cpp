@@ -1,9 +1,8 @@
-#define _CRT_SECURE_NO_WARNINGS 1
+//#define _CRT_SECURE_NO_WARNINGS 1
 #include<iostream>
 using namespace std;
-//int main(){
-//	int byte,res=0,rs=0,i;
-//	cin >> byte;
+//int find(int byte){
+//	int res = 0, rs = 0, i;
 //	while (byte){
 //		i = 1 & byte;
 //		if (i == 1){
@@ -20,6 +19,12 @@ using namespace std;
 //	if (rs > res){
 //		res = rs;
 //	}
-//	cout << res;
+//	return res;
+//}
+//int main(){
+//	int n;
+//	while (cin >> n){
+//		cout << find(n) << endl;
+//	}
 //	return 0;
 //}
