@@ -17,10 +17,17 @@ void Bstree(){
 	a.Insert(13);
 	a.Insert(0);
 	a.InOrder();
-	a.Delete(3);
-	a.InOrder();
-	a.Delete(10);
-	a.InOrder();
+	cout<<a.IfLeftMost()->date_<<endl;
+	cout << a.IfRightMost()->date_ << endl;
+	//a.Delete(3);
+	//a.InOrder();
+	//a.Delete(10);
+	//a.InOrder();
+	//a.Delete(0);
+	//a.InOrder();
+	//a.Delete(13);
+	//a.InOrder();
+
 }
 int main(){
 	Bstree();
