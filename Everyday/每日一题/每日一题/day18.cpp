@@ -1,20 +1,23 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<iostream>
 using namespace std;
-int Sum(int n){
-	int i = 1,j=0;
-	if (n < 3){
-		return i;
-	}
-		for (int m = 3; m < n; m++){
-			i *= 2;
-		}
-	return i;
-}
-int main(){
-	int n;
-	while (cin >> n){
-		cout << Sum(n) << endl;
-	}
-	return 0;
-}
+//兔子数量，本质上还是斐波那契数列
+//int getTotalCount(int m)
+//{
+//	int result=0,a=1,b=0;
+//	while (m){
+//		result = a + b;
+//		a = b;
+//		b = result;
+//		m--;
+//	}
+//	return result;
+//}
+//int main(){
+//	int n;
+//	while (cin >> n){
+//		cout << getTotalCount(n) << endl;
+//	}
+//	return 0;
+//}
+
