@@ -1,0 +1,13 @@
+﻿生成启动时间为 2020/1/1 20:07:03。
+     1>项目“E:\C语言\程序\sdada\Bank_account_fund\Bank_account_fund\Bank_account_fund.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C语言\程序\sdada\Bank_account_fund\Debug\Bank_account_fund.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\C语言\程序\sdada\Bank_account_fund\Debug\Bank_account_fund.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\C语言\程序\sdada\Bank_account_fund\Debug\Bank_account_fund.lib" /MACHINE:X86 Debug\Consql.obj
+         Debug\fund.obj
+         Debug\main.obj
+     1>Consql.obj : error LNK2019: 无法解析的外部符号 "public: virtual __thiscall ADOConn::~ADOConn(void)" (??1ADOConn@@UAE@XZ)，该符号在函数 "public: virtual void * __thiscall ADOConn::`scalar deleting destructor'(unsigned int)" (??_GADOConn@@UAEPAXI@Z) 中被引用
+     1>E:\C语言\程序\sdada\Bank_account_fund\Debug\Bank_account_fund.exe : fatal error LNK1120: 1 个无法解析的外部命令
+     1>已完成生成项目“E:\C语言\程序\sdada\Bank_account_fund\Bank_account_fund\Bank_account_fund.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.25
