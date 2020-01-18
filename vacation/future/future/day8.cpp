@@ -2,13 +2,51 @@
 #include <iostream>
 #include <vector>
 #include <sstream>
+#include <algorithm>
+#include <set>
 using namespace std;
-vector<int> plusOne(vector<int>& digits) {
 
+int thirdMax(vector<int>& nums) {
+	set<int> w;
+	for (int e : nums){
+		w.insert(e);
+		if (w.size() > 3){
+			w.erase(*(begin(w)));
+		}
+	}
+	if (w.size() < 3){
+		return *(rbegin(w));
+	}
+	else{
+		return *(begin(w));
+	}
 }
 
 int main(){
-	vector<int> w = { 6, 1, 4, 5, 3, 9, 0, 1, 9, 5, 1, 8, 6, 7, 0, 5, 5, 4, 3 };
-	plusOne(w);
+	vector<int> w = { 1,1,2 };
+	int k=thirdMax(w);
 	return 0;
 }
+
+//vector<int> plusOne(vector<int>& digits) {
+//	for (int i = digits.size() - 1; i >= 0; i--){
+//		if (digits[i] == 9){
+//			digits[i] = 0;
+//		}
+//		else{
+//			digits[i]++;
+//			break;
+//		}
+//	}
+//	if (digits[0] == 0){
+//		digits.push_back(0);
+//		digits[0] = 1;
+//	}
+//	return digits;
+//}
+//
+//int main(){
+//	vector<int> w = { 9,9,9 };
+//	plusOne(w);
+//	return 0;
+//}
