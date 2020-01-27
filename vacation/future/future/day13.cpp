@@ -2,26 +2,24 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-vector<vector<int>> subsets(vector<int>& nums) {
-	int sta = 0, end = nums.size() - 1;
-	vector<vector<int>> res;
-	res.push_back({});
-	for (; sta <= end; sta++){
-		vector<int> ss;
-		for (int i = sta; i <= end; ++i){
-			for (int j = sta; j <= i; j++){
-				ss.push_back(nums[j]);
-			}
-			res.push_back(ss);
-			ss.clear();
-		}
-		
-	}
-	return res;
-}
 
-int main(){
-	vector<int> k = { 1, 2, 3 };
-	subsets(k);
-	return 0;
-}
+
+
+//vector<vector<int>> subsets(vector<int>& nums) {
+	//vector<vector<int> > res(1);
+	//for (int i = 0; i<nums.size(); i++){
+	//	int cnt = res.size();
+	//	for (int j = 0; j<cnt; j++){
+	//		vector<int> tmp = res[j];
+	//		tmp.push_back(nums[i]);
+	//		res.push_back(tmp);
+	//	}
+	//}
+	//return res;
+//}
+//
+//int main(){
+//	vector<int> k = { 1, 2, 3 };
+//	subsets(k);
+//	return 0;
+//}
