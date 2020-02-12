@@ -15,16 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="zip.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <ClInclude Include="Hftree.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HuffCompress.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="zip.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="zip.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ClCompile Include="HuffCompress.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CompressTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

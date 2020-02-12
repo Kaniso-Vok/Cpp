@@ -64,11 +64,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="zip.cpp" />
+    <ClCompile Include="CompressTest.cpp" />
+    <ClCompile Include="HuffCompress.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="zip.h" />
-    <ClInclude Include="zip.hpp" />
+    <ClInclude Include="Hftree.hpp" />
+    <ClInclude Include="HuffCompress.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
