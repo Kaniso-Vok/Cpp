@@ -1,0 +1,10 @@
+#pragma once
+#include "Hftree.hpp"
+#include <string>
+#include <vector>
+using namespace std;
+
+struct Charinfo{       //字符信息
+	unsigned char ch;          //所有的无符号都是为了汉字字符准备的，不然的话符号值有可能为负数
+	size_t count;   //出现次数
+	string co
