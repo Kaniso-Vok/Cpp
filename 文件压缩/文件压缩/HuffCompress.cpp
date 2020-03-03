@@ -12,13 +12,14 @@ HuffCompress::HuffCompress(){
 }
 
 void HuffCompress::CompressFile(const string& path){
-	                        ///////////////////////////1.统计原文件中每个字符出现的次数/////////////////////////////////////
-	FILE* FileIn = fopen(path.c_str(), "r");  // r 表示按照只读方式打开
+	                        
+	FILE* FileIn = fopen(path.c_str(), "rb");  // r 表示按照只读方式打开
 	if (nullptr == FileIn){   //判断文件打开是否成功
 		assert(false);
 		return;
 	}
 
+	///////////////////////////1.统计原文件中每个字符出现的次数/////////////////////////////////////
 	unsigned char* pReadBuff = new unsigned char[1024];  //pReadBuff用来存储读到的内容，一次1024字节（1K）
 	int readsize = 0;
 	while (true){
@@ -43,7 +44,7 @@ void HuffCompress::CompressFile(const string& path){
 
 	                   /////////////////////////////////////4.用字符编码重写原文件/////////////////////////////////////
 
-	FILE* FileOut = fopen("t2.txt", "w");   //打开(创建)一个文件用来存储压缩后文件，  w -》 以写方式打开
+	FILE* FileOut = fopen("t2.txt", "wb");   //打开(创建)一个文件用来存储压缩后文件，  w -》 以写方式打开
 	
 	if (nullptr == FileOut){       //打开（创建）失败
 		assert(false);
@@ -169,7 +170,7 @@ void HuffCompress::GetCharCode(HfNode<Charinfo>* pRoot){    //编码获取
 
 void HuffCompress::UNCopressFile(const string& path){   //解压缩
 
- 	FILE* FileIn = fopen(path.c_str(), "r");    //读取文件
+ 	FILE* FileIn = fopen(path.c_str(), "rb");    //读取文件
 	if (nullptr == FileIn){
 		assert(false);
 		return;
@@ -208,7 +209,7 @@ void HuffCompress::UNCopressFile(const string& path){   //解压缩
 	 
 	/////////////////////////////////3.解压缩////////////////////////////
 
-	FILE* FileOut = fopen("t3.txt", "w");
+	FILE* FileOut = fopen("t3.txt", "wb");
 	assert(FileOut);
 
 	size_t readsize;
