@@ -67,6 +67,7 @@
     <ClCompile Include="二分查找.cpp" />
     <ClCompile Include="二维数组查找.cpp" />
     <ClCompile Include="奇数偶数相对不变排序.cpp" />
+    <ClCompile Include="字符串操作.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

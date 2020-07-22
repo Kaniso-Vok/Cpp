@@ -24,5 +24,8 @@
     <ClCompile Include="奇数偶数相对不变排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="字符串操作.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
