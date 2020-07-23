@@ -27,5 +27,8 @@
     <ClCompile Include="字符串操作.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="链表的反向输出.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
